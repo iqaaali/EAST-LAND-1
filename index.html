@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EastLand City | تعريف السيرفر</title>
+    <style>
+        :root {
+            --bg-color: #0b0a09;
+            --card-bg: rgba(26, 22, 18, 0.95);
+            --border-color: #d2b48c;
+            --text-white: #ffffff;
+            --text-gray: #d2b48c;
+            --btn-black: #111111;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-white);
+            font-family: sans-serif;
+            margin: 0;
+            padding: 20px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+
+        .container {
+            background-color: var(--card-bg);
+            border: 2px solid var(--border-color);
+            border-radius: 16px;
+            max-width: 650px;
+            width: 90%;
+            padding: 35px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+            backdrop-filter: blur(5px);
+            margin: 20px;
+        }
+
+        .server-img {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            border: 3px solid var(--border-color);
+            object-fit: cover;
+            margin-bottom: 20px;
+            box-shadow: 0 0 20px rgba(210, 180, 140, 0.4);
+        }
+
+        h1 {
+            color: var(--text-white);
+            font-size: 30px;
+            margin-bottom: 15px;
+            letter-spacing: 1px;
+        }
+
+        .desc-box {
+            color: var(--text-gray);
+            font-size: 15px;
+            line-height: 1.9;
+            margin-bottom: 25px;
+            text-align: right;
+            background: rgba(0, 0, 0, 0.3);
+            padding: 18px 22px;
+            border-radius: 10px;
+            border: 1px dashed rgba(210, 180, 140, 0.3);
+        }
+
+        .features {
+            text-align: right;
+            margin-bottom: 25px;
+            color: var(--text-white);
+            font-size: 15px;
+            line-height: 1.7;
+            background: rgba(0, 0, 0, 0.2);
+            padding: 18px 22px;
+            border-radius: 10px;
+            border: 1px solid rgba(210, 180, 140, 0.2);
+        }
+
+        .features ul {
+            padding-right: 20px;
+            margin: 10px 0 0 0;
+            color: var(--text-gray);
+        }
+
+        .extra-info {
+            text-align: right;
+            margin-bottom: 25px;
+            color: var(--text-gray);
+            font-size: 14px;
+            line-height: 1.7;
+            background: rgba(0, 0, 0, 0.3);
+            padding: 18px 22px;
+            border-radius: 10px;
+            border: 1px dashed rgba(210, 180, 140, 0.3);
+        }
+
+        .buttons-container {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-top: 25px;
+        }
+
+        .action-btn {
+            background-color: var(--btn-black);
+            color: var(--text-white);
+            border: 2px solid var(--border-color);
+            padding: 12px 24px;
+            font-size: 15px;
+            font-weight: bold;
+            border-radius: 8px;
+            text-decoration: none;
+            display: inline-block;
+            transition: 0.3s;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+        }
+
+        .action-btn:hover {
+            background-color: #ffffff;
+            color: #000000;
+            border-color: #ffffff;
+            transform: translateY(-2px);
+        }
+
+        .footer-text {
+            margin-top: 30px;
+            font-weight: bold;
+            color: var(--text-white);
+            font-size: 16px;
+            letter-spacing: 0.5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- صورة السيرفر (تأكد من وضع اسم صورتك الصحيح هنا، مثل server-banner.png) -->
+        <img src="server-banner.png" alt="EastLand Logo" class="server-img" onerror="this.src='https://via.placeholder.com/130'">
+        
+        <h1>🏜️ EastLand | Roblox RP 🇮🇶</h1>
+
+        <div class="desc-box">
+            ▫️ ماب روبلوكس حياة واقعية متكاملة، مستوحى من أجواء ريسبكت وMT العريقة بطابع عراقي وعربي مميز.<br><br>
+            🔸 نهدف لتقديم تجربة فريدة من نوعها تجمع بين الواقعية المطلقة، التنظيم الإداري العالي، التفاعل المستمر، والفعاليات الكبرى الضخمة.<br><br>
+            ▫️📅 تأسس السيرفر بتاريخ 2026/8/1، ومنذ تلك اللحظة ونحن مستمرون في التطوير المستمر وتقديم الأفضل لكم لصنع مجتمع رول بلاي استثنائي.
+        </div>
+
+        <div class="features">
+            🚀 <strong>ماذا ينتظرك في مدينتنا؟ (مميزات السيرفر)</strong>
+            <ul>
+                <li>مجتمع عراقي وعربي راقي، مع التزام تام بقواعد الرول بلاي الاحترافي.</li>
+                <li>وظائف حكومية وعسكرية متكاملة (شرطة، إسعاف) وشركات مدنية وأعمال حرة.</li>
+                <li>فعاليات وجوائز مستمرة ومفاجآت أسبوعية لأهل المدينة النشيطين.</li>
+                <li>إدارة متجاوبة ومحترفة تعمل على مدار الساعة لضمان حقوق الجميع وتوفير بيئة عادلة.</li>
+            </ul>
+        </div>
+
+        <div class="extra-info">
+            💡 <strong>تعليمات سريعة قبل دخول المدينة:</strong><br>
+            • يرجى قراءة القوانين العامة وقوانين الحياة الواقعية بعناية فائقة لتجنب المخالفات.<br>
+            • الالتزام بتقمص الشخصية طوال فترة تواجدك داخل الماب يمنحك تجربة لا تُنسى.<br>
+            • للاستفسارات وفتح تذاكر الدعم الفني، توجه فوراً إلى ديسكورد السيرفر الرسمي.
+        </div>
+
+        <!-- الأزرار المطلوبة (ديسكورد + الموقع الرئيسي) -->
+        <div class="buttons-container">
+            <a href="https://discord.gg/1EL" target="_blank" class="action-btn">🔗 انضم إلى الديسكورد (1EL)</a>
+            <a href="https://iqaaali.github.io/Ifali/" target="_blank" class="action-btn">🌐 زيارة الموقع الرئيسي</a>
+        </div>
+
+        <div class="footer-text">
+            👑 إدارة EastLand ترحب بكم وتسعد بانضمامكم 🤍
+        </div>
+    </div>
+
+</body>
+</html>
